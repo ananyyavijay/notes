@@ -27,14 +27,12 @@ notes-app/
 └── README.md
 
 ## 💻 How to Use
-
-1. Clone the repository:
-
 ```bash
+1. Clone the repository:
 git clone https://github.com/ananyyavijay/notes.git
-cd notes
-Open index.html in your browser.
-
+2. cd notes
+3. Open index.html in your browser.
+```
 Start creating and managing your notes!
 
 💡 All notes are automatically saved in your browser — no database needed.
