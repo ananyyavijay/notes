@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #FFE1E0, #9B7EBD); /* ✅ fallback for overscroll */
+}
+
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #FFE1E0, #9B7EBD);
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.container h1 img{
+    width: 5rem;
+}
+
+.container button{
+    height: 45px;
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    background: linear-gradient(#7F55B1, #7C4585);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.container button i{
+    font-size: 1.2rem;
+    
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 140px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: 30px 0;
+}
+
+.input-box i{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+    color: grey;
+}
